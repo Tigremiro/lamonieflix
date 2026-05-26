@@ -1,57 +1,281 @@
 [
     {
         "id": "1",
-        "name": "Escondidinho de Carne Seca",
-        "thumbnail_url": "https://images.unsplash.com/photo-1624726175512-19b9baf9fbd1?auto=format&fit=crop&w=800&q=80",
-        "prep_time_minutes": 20,
-        "cook_time_minutes": 40,
-        "total_time_minutes": 60,
-        "description": "Um clássico nordestino com purê de mandioca cremoso e carne seca desfiada bem temperada.",
-        "tags": ["massas"],
+        "name": "Pão de Queijo Mineiro",
+        "thumbnail_url": "https://images.unsplash.com/photo-1593504049359-74330189a345?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 15,
+        "cook_time_minutes": 25,
+        "total_time_minutes": 40,
+        "description": "O clássico brasileiro, com casquinha crocante por fora e macio por dentro. Perfeito para acompanhar um café coado.",
+        "tags": ["breakfast"],
         "sections": [
-            { "components": [ { "raw_text": "1kg de mandioca cozida" }, { "raw_text": "500g de carne seca dessalgada e desfiada" }, { "raw_text": "1 cebola picada e alho a gosto" }, { "raw_text": "Queijo coalho ralado para gratinar" } ] }
+            {
+                "components": [
+                    { "raw_text": "500g de polvilho azedo" },
+                    { "raw_text": "1 copo (americano) de água" },
+                    { "raw_text": "1 copo (americano) de leite" },
+                    { "raw_text": "1/2 copo (americano) de óleo" },
+                    { "raw_text": "2 ovos" },
+                    { "raw_text": "100g de queijo parmesão ralado" },
+                    { "raw_text": "Sal a gosto" }
+                ]
+            }
         ],
         "instructions": [
-            { "display_text": "Amasse a mandioca e faça um purê com um pouco de leite e manteiga." },
-            { "display_text": "Refogue a carne seca desfiada com a cebola e o alho." },
-            { "display_text": "Monte em uma travessa: camada de purê, carne seca, e cubra com o restante do purê." },
-            { "display_text": "Finalize com queijo coalho e leve ao forno para gratinar." }
+            { "display_text": "Ferva a água, o leite, o óleo e o sal." },
+            { "display_text": "Escalde o polvilho com essa mistura fervente e misture bem até amornar." },
+            { "display_text": "Adicione os ovos um a um, amassando bem a massa." },
+            { "display_text": "Incorpore o queijo ralado e faça pequenas bolinhas com as mãos untadas." },
+            { "display_text": "Asse em forno preaquecido a 180°C por cerca de 25 minutos ou até dourarem." }
         ]
     },
     {
         "id": "2",
-        "name": "Tapioca de Frango Fit",
-        "thumbnail_url": "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80",
-        "prep_time_minutes": 5,
-        "cook_time_minutes": 10,
-        "total_time_minutes": 15,
-        "description": "Opção rápida, leve e saudável para o pré ou pós-treino, recheada com frango cremoso.",
-        "tags": ["under_30_minutes", "healthy", "chicken"],
+        "name": "Strogonoff de Frango",
+        "thumbnail_url": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 10,
+        "cook_time_minutes": 20,
+        "total_time_minutes": 30,
+        "description": "A versão brasileira do strogonoff, com creme de leite, ketchup e mostarda. Rápido e prato garantido nos almoços de família.",
+        "tags": ["chicken", "under_30_minutes"],
         "sections": [
-            { "components": [ { "raw_text": "4 colheres de goma de tapioca hidratada" }, { "raw_text": "100g de frango desfiado" }, { "raw_text": "1 colher de requeijão light" } ] }
+            {
+                "components": [
+                    { "raw_text": "3 peitos de frango cortados em cubos" },
+                    { "raw_text": "1 dente de alho picado e sal a gosto" },
+                    { "raw_text": "1 colher (sopa) de manteiga" },
+                    { "raw_text": "2 colheres (sopa) de ketchup" },
+                    { "raw_text": "1 colher (sopa) de mostarda" },
+                    { "raw_text": "1 caixinha de creme de leite" }
+                ]
+            }
         ],
         "instructions": [
-            { "display_text": "Peneire a goma de tapioca em uma frigideira quente." },
-            { "display_text": "Misture o frango desfiado com o requeijão light." },
-            { "display_text": "Adicione o recheio de um lado da tapioca, dobre ao meio e sirva." }
+            { "display_text": "Tempere os cubos de frango com sal e o alho." },
+            { "display_text": "Em uma frigideira funda, derreta a manteiga e doure bem o frango." },
+            { "display_text": "Adicione o ketchup e a mostarda, misturando bem." },
+            { "display_text": "Abaixe o fogo, acrescente o creme de leite e mexa até aquecer (não deixe ferver)." },
+            { "display_text": "Sirva com arroz branco e batata palha." }
         ]
     },
     {
         "id": "3",
-        "name": "Brigadeiro Gourmet",
+        "name": "Bolo de Cenoura com Cobertura de Chocolate",
+        "thumbnail_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 15,
+        "cook_time_minutes": 40,
+        "total_time_minutes": 55,
+        "description": "Aquele bolo de cenoura fofinho de liquidificador, coberto com uma calda de chocolate durinha e brilhante.",
+        "tags": ["desserts"],
+        "sections": [
+            {
+                "components": [
+                    { "raw_text": "3 cenouras médias picadas" },
+                    { "raw_text": "4 ovos" },
+                    { "raw_text": "1/2 xícara (chá) de óleo" },
+                    { "raw_text": "2 xícaras (chá) de açúcar" },
+                    { "raw_text": "2 e 1/2 xícaras (chá) de farinha de trigo" },
+                    { "raw_text": "1 colher (sopa) de fermento em pó" },
+                    { "raw_text": "Para a calda: 1 colher de manteiga, 3 colheres de chocolate em pó e 1 xícara de açúcar." }
+                ]
+            }
+        ],
+        "instructions": [
+            { "display_text": "Bata no liquidificador as cenouras, os ovos, o óleo e o açúcar." },
+            { "display_text": "Despeje a mistura em uma tigela e acrescente a farinha de trigo aos poucos." },
+            { "display_text": "Misture o fermento delicadamente." },
+            { "display_text": "Asse em forno médio (180°C) preaquecido por cerca de 40 minutos." },
+            { "display_text": "Para a calda, misture os ingredientes na panela até ferver, e jogue sobre o bolo ainda quente." }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Macarrão de Panela de Pressão",
+        "thumbnail_url": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 5,
+        "cook_time_minutes": 10,
+        "total_time_minutes": 15,
+        "description": "A receita salva-vidas dos estudantes e de quem tem pressa. Um macarrão cremoso pronto em menos de 15 minutos.",
+        "tags": ["pasta", "under_30_minutes"],
+        "sections": [
+            {
+                "components": [
+                    { "raw_text": "1 pacote de macarrão penne ou parafuso" },
+                    { "raw_text": "1 sachê de molho de tomate" },
+                    { "raw_text": "1 caixinha de creme de leite" },
+                    { "raw_text": "200g de presunto picado" },
+                    { "raw_text": "200g de queijo mussarela picado" },
+                    { "raw_text": "Água o suficiente para cobrir o macarrão" }
+                ]
+            }
+        ],
+        "instructions": [
+            { "display_text": "Na panela de pressão, coloque o macarrão, o molho de tomate e cubra com água." },
+            { "display_text": "Feche a panela e, quando pegar pressão, conte exatamente 3 minutos." },
+            { "display_text": "Desligue o fogo e tire a pressão." },
+            { "display_text": "Abra a panela, adicione o creme de leite, o presunto e o queijo." },
+            { "display_text": "Mexa bem até o queijo derreter e sirva imediatamente." }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Escondidinho Fit de Frango e Batata Doce",
+        "thumbnail_url": "https://images.unsplash.com/photo-1548943487-a2e4e43b4859?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 20,
+        "cook_time_minutes": 25,
+        "total_time_minutes": 45,
+        "description": "Uma refeição completa, saudável e muito proteica, ideal para o pré ou pós-treino.",
+        "tags": ["healthy", "chicken"],
+        "sections": [
+            {
+                "components": [
+                    { "raw_text": "500g de batata doce cozida e amassada" },
+                    { "raw_text": "500g de peito de frango cozido e desfiado" },
+                    { "raw_text": "1/2 cebola picada e alho a gosto" },
+                    { "raw_text": "1 colher (sopa) de requeijão light" },
+                    { "raw_text": "Sal, pimenta e cheiro-verde a gosto" }
+                ]
+            }
+        ],
+        "instructions": [
+            { "display_text": "Faça um purê rústico com a batata doce amassada, temperando com sal." },
+            { "display_text": "Em uma panela, refogue a cebola e o alho, depois adicione o frango desfiado." },
+            { "display_text": "Adicione o requeijão light ao frango para dar cremosidade, finalizando com cheiro-verde." },
+            { "display_text": "Em um refratário, coloque metade do purê, o recheio de frango, e cubra com o restante do purê." },
+            { "display_text": "Leve ao forno por 20 minutos para aquecer bem e dourar." }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Tapioca Rápida de Queijo Coalho",
+        "thumbnail_url": "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 2,
+        "cook_time_minutes": 5,
+        "total_time_minutes": 7,
+        "description": "O café da manhã nordestino perfeito. Leve, sem glúten e que derrete na boca.",
+        "tags": ["breakfast", "under_30_minutes"],
+        "sections": [
+            {
+                "components": [
+                    { "raw_text": "4 colheres (sopa) de goma de tapioca hidratada" },
+                    { "raw_text": "2 fatias grossas de queijo coalho" },
+                    { "raw_text": "Manteiga de garrafa (opcional, para pincelar)" }
+                ]
+            }
+        ],
+        "instructions": [
+            { "display_text": "Peneire a goma de tapioca em uma frigideira antiaderente já quente." },
+            { "display_text": "Deixe cozinhar por cerca de 1 minuto até a massa se unir." },
+            { "display_text": "Coloque as fatias de queijo coalho de um lado da tapioca." },
+            { "display_text": "Dobre a tapioca ao meio, deixe o calor derreter o queijo e sirva." }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Brigadeiro de Panela Cremoso",
         "thumbnail_url": "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?auto=format&fit=crop&w=800&q=80",
         "prep_time_minutes": 5,
         "cook_time_minutes": 15,
         "total_time_minutes": 20,
-        "description": "O doce mais famoso do Brasil na sua versão gourmet, super cremoso e irresistível.",
-        "tags": ["under_30_minutes", "desserts"],
+        "description": "A sobremesa que todo brasileiro sabe fazer. Versão para comer de colher assistindo a um filme.",
+        "tags": ["desserts", "under_30_minutes"],
         "sections": [
-            { "components": [ { "raw_text": "1 lata de leite condensado" }, { "raw_text": "3 colheres de sopa de cacau em pó 50%" }, { "raw_text": "1 colher de sopa de manteiga" }, { "raw_text": "Granulado de chocolate ao leite" } ] }
+            {
+                "components": [
+                    { "raw_text": "1 lata de leite condensado" },
+                    { "raw_text": "3 colheres (sopa) de cacau em pó 50% ou achocolatado" },
+                    { "raw_text": "1 colher (sopa) de manteiga" },
+                    { "raw_text": "1/2 caixinha de creme de leite (opcional, para mais cremosidade)" }
+                ]
+            }
         ],
         "instructions": [
-            { "display_text": "Na panela, misture o leite condensado, o cacau e a manteiga antes de ligar o fogo." },
-            { "display_text": "Cozinhe em fogo baixo mexendo sem parar até desgrudar do fundo." },
-            { "display_text": "Deixe esfriar, faça bolinhas e passe no granulado." }
+            { "display_text": "Com o fogo desligado, misture o leite condensado, o cacau e a manteiga na panela." },
+            { "display_text": "Ligue o fogo em temperatura média-baixa e mexa sem parar." },
+            { "display_text": "Quando começar a soltar levemente do fundo da panela, desligue." },
+            { "display_text": "Misture o creme de leite para quebrar o doce e deixar super cremoso." }
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Macarronada Bolonhesa de Domingo",
+        "thumbnail_url": "https://images.unsplash.com/photo-1622973536968-3ead9e780960?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 15,
+        "cook_time_minutes": 45,
+        "total_time_minutes": 60,
+        "description": "Aquela macarronada farta, com molho de carne moída bem apurado, tradição das famílias brasileiras.",
+        "tags": ["pasta"],
+        "sections": [
+            {
+                "components": [
+                    { "raw_text": "500g de espaguete" },
+                    { "raw_text": "500g de carne moída (patinho ou acém)" },
+                    { "raw_text": "1 cebola e 3 dentes de alho picados" },
+                    { "raw_text": "2 sachês de molho de tomate" },
+                    { "raw_text": "Queijo parmesão ralado para servir" }
+                ]
+            }
+        ],
+        "instructions": [
+            { "display_text": "Refogue a cebola e o alho em um fio de óleo." },
+            { "display_text": "Adicione a carne moída, tempere com sal e pimenta e refogue até secar a água." },
+            { "display_text": "Acrescente o molho de tomate e deixe apurar em fogo baixo por 20 minutos." },
+            { "display_text": "Enquanto isso, cozinhe o macarrão em água fervente com sal." },
+            { "display_text": "Escorra a massa, junte ao molho e sirva com parmesão ralado." }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Crepioca Fit",
+        "thumbnail_url": "https://images.unsplash.com/photo-1510693060410-a1921350e417?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 5,
+        "cook_time_minutes": 5,
+        "total_time_minutes": 10,
+        "description": "Mistura de crepe com tapioca. Rica em proteínas, leve e com baixas calorias.",
+        "tags": ["healthy", "breakfast", "under_30_minutes"],
+        "sections": [
+            {
+                "components": [
+                    { "raw_text": "1 ovo inteiro" },
+                    { "raw_text": "2 colheres (sopa) de goma de tapioca" },
+                    { "raw_text": "1 pitada de sal" },
+                    { "raw_text": "Recheio a gosto (queijo branco, peito de peru, frango)" }
+                ]
+            }
+        ],
+        "instructions": [
+            { "display_text": "Bata o ovo e a tapioca em uma tigela com um garfo até formar um líquido homogêneo." },
+            { "display_text": "Tempere com uma pitada de sal." },
+            { "display_text": "Despeje em uma frigideira antiaderente preaquecida." },
+            { "display_text": "Doure de um lado, vire, adicione o recheio e feche como um omelete." }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Pudim de Leite sem Furinhos",
+        "thumbnail_url": "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 20,
+        "cook_time_minutes": 90,
+        "total_time_minutes": 110,
+        "description": "A joia das sobremesas. Um pudim denso, liso e acompanhado de uma calda de caramelo perfeita.",
+        "tags": ["desserts"],
+        "sections": [
+            {
+                "components": [
+                    { "raw_text": "1 lata de leite condensado" },
+                    { "raw_text": "1 mesma medida da lata de leite integral" },
+                    { "raw_text": "3 ovos inteiros" },
+                    { "raw_text": "1 xícara (chá) de açúcar (para a calda)" },
+                    { "raw_text": "1/2 xícara de água quente (para a calda)" }
+                ]
+            }
+        ],
+        "instructions": [
+            { "display_text": "Derreta o açúcar na própria forma de pudim. Quando dourar, adicione a água quente e deixe engrossar." },
+            { "display_text": "No liquidificador, bata o leite condensado, o leite e os ovos por 3 minutos." },
+            { "display_text": "Deixe a mistura descansar por 15 minutos e retire a espuma que formar por cima (isso evita os furinhos)." },
+            { "display_text": "Despeje na forma caramelizada e asse em banho-maria a 180°C por 1 hora e meia, coberto com papel alumínio." },
+            { "display_text": "Gele por no mínimo 6 horas antes de desenformar." }
         ]
     }
 ]
