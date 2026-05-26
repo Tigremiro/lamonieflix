@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "name": "Escondidinho de Carne Seca",
+        "thumbnail_url": "https://images.unsplash.com/photo-1624726175512-19b9baf9fbd1?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 20,
+        "cook_time_minutes": 40,
+        "total_time_minutes": 60,
+        "description": "Um clássico nordestino com purê de mandioca cremoso e carne seca desfiada bem temperada.",
+        "tags": ["massas"],
+        "sections": [
+            { "components": [ { "raw_text": "1kg de mandioca cozida" }, { "raw_text": "500g de carne seca dessalgada e desfiada" }, { "raw_text": "1 cebola picada e alho a gosto" }, { "raw_text": "Queijo coalho ralado para gratinar" } ] }
+        ],
+        "instructions": [
+            { "display_text": "Amasse a mandioca e faça um purê com um pouco de leite e manteiga." },
+            { "display_text": "Refogue a carne seca desfiada com a cebola e o alho." },
+            { "display_text": "Monte em uma travessa: camada de purê, carne seca, e cubra com o restante do purê." },
+            { "display_text": "Finalize com queijo coalho e leve ao forno para gratinar." }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Tapioca de Frango Fit",
+        "thumbnail_url": "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 5,
+        "cook_time_minutes": 10,
+        "total_time_minutes": 15,
+        "description": "Opção rápida, leve e saudável para o pré ou pós-treino, recheada com frango cremoso.",
+        "tags": ["under_30_minutes", "healthy", "chicken"],
+        "sections": [
+            { "components": [ { "raw_text": "4 colheres de goma de tapioca hidratada" }, { "raw_text": "100g de frango desfiado" }, { "raw_text": "1 colher de requeijão light" } ] }
+        ],
+        "instructions": [
+            { "display_text": "Peneire a goma de tapioca em uma frigideira quente." },
+            { "display_text": "Misture o frango desfiado com o requeijão light." },
+            { "display_text": "Adicione o recheio de um lado da tapioca, dobre ao meio e sirva." }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Brigadeiro Gourmet",
+        "thumbnail_url": "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?auto=format&fit=crop&w=800&q=80",
+        "prep_time_minutes": 5,
+        "cook_time_minutes": 15,
+        "total_time_minutes": 20,
+        "description": "O doce mais famoso do Brasil na sua versão gourmet, super cremoso e irresistível.",
+        "tags": ["under_30_minutes", "desserts"],
+        "sections": [
+            { "components": [ { "raw_text": "1 lata de leite condensado" }, { "raw_text": "3 colheres de sopa de cacau em pó 50%" }, { "raw_text": "1 colher de sopa de manteiga" }, { "raw_text": "Granulado de chocolate ao leite" } ] }
+        ],
+        "instructions": [
+            { "display_text": "Na panela, misture o leite condensado, o cacau e a manteiga antes de ligar o fogo." },
+            { "display_text": "Cozinhe em fogo baixo mexendo sem parar até desgrudar do fundo." },
+            { "display_text": "Deixe esfriar, faça bolinhas e passe no granulado." }
+        ]
+    }
+]
