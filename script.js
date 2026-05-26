@@ -1,9 +1,7 @@
 // ==========================================
 // CONFIGURAÇÃO DA API
 // ==========================================
-const RAPIDAPI_KEY = "bd5c7a3873mshb4ff07ce37cca9dp1ea7b8jsn1acaca01ee9a
-
-";
+const RAPIDAPI_KEY = "bd5c7a3873mshb4ff07ce37cca9dp1ea7b8jsn1acaca01ee9a";
 const API_HOST = "tasty.p.rapidapi.com";
 const BASE_URL = "https://tasty.p.rapidapi.com/recipes/list";
 
